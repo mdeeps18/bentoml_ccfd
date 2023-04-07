@@ -22,7 +22,7 @@ node {
          }
 
          stage("Kubernetes deployment"){
-             sh 'kubectl apply -f ~/bentoml_ccfd/deploymentservice.yaml'
+             kubernetesDeploy (configs: 'deploymentservice.yaml', kubeconfigId: 'Kuberneteskey')
            }
 
         }
