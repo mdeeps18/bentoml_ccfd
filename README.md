@@ -1,7 +1,7 @@
 ## Deploy ml Model to detect credit card fraud detection with Bentoml
 
 ```bash
-git clone https://github.com/Devendra61/bentoml_ccfd.git 
+git clone https://github.com/mdeeps18/bentoml_ccfd.git 
 ``` 
 ```bash 
 cd bentoml_ccfd && pip install -r requirements.txt
