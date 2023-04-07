@@ -4,7 +4,6 @@ metadata:
     labels:
         app: xgb-classifier
     name: xgb-classifier
-    namespace: default
 spec:
     ports:
     - name: predict
@@ -22,7 +21,6 @@ metadata:
     labels:
         app: xgb-classifier
     name: xgb-classifier
-    namespace: default
 spec:
     selector:
         matchLabels:
