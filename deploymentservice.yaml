@@ -1,8 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-    app: xgb-classifier
+    labels:
+        app: xgb-classifier
     name: xgb-classifier
+    namespace: default
 spec:
     ports:
     - name: predict
@@ -17,8 +19,10 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    app: xgb-classifier
+    labels:
+        app: xgb-classifier
     name: xgb-classifier
+    namespace: default
 spec:
     selector:
         matchLabels:
