@@ -1,20 +1,20 @@
-apiVersion: v1
-kind: Service
-metadata:
-    labels:
-        app: xgb-classifier
-    name: xgb-classifier
-    namespace: default
-spec:
-    ports:
-    - name: predict
-      port: 3000
-      targetPort: 3000
-    selector:
-      app: xgb-classifier
-    type: LoadBalancer
-    externalIPs:
-    - 54.237.70.93
+#apiVersion: v1
+#kind: Service
+#metadata:
+    #labels:
+        #app: xgb-classifier
+    #name: xgb-classifier
+    #namespace: default
+#spec:
+    #ports:
+    #- name: predict
+      #port: 3000
+      #targetPort: 3000
+    #selector:
+      #app: xgb-classifier
+   # type: LoadBalancer
+    #externalIPs:
+    #- 54.237.70.93
 ---
 apiVersion: apps/v1
 kind: Deployment
