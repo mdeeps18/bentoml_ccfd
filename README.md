@@ -12,7 +12,7 @@ python3 train.py
 ```bash
 bentoml serve service.py:svc --reload
 ```
-#### replace <instance_public_ip>  with your <machine_public_ip> example: https://54.164.180.20:8080/
+#### replace <instance_public_ip>  with your <machine_public_ip> example: https://54.237.70.93:8080/
 
 #### https://<instance_public_ip>:8080/
 
