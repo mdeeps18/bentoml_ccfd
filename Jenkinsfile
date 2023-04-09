@@ -23,7 +23,6 @@ node {
 
          stage("Kubernetes deployment"){
              kubernetesDeploy (configs: 'deploymentservice.yaml', kubeconfigId: 'Kuberneteskey')
-             sh '''echo "$KUBECONFIG_CONTENT" >kubeconfig && kubectl version --kubeconfig kubeconfig && rm kubeconfig'''
            }
 
         }
