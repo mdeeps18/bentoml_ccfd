@@ -22,7 +22,7 @@ node {
          }
 
          stage("Kubernetes deployment"){
-             kubernetesDeploy (configs: 'deploymentservice.yaml', kubeconfigId: 'Kuberneteskey')
+            kubernetesDeploy (configs: 'deploymentservice.yaml', kubeconfigId: 'kuberneteskey')
            }
 
         }
