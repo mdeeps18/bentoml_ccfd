@@ -1,4 +1,4 @@
-## Deploy ml Model to detect credit card fraud detection with Bentoml
+## Deploy ml Model to detect credit card dues
 
 ```bash
 git clone https://github.com/mdeeps18/bentoml_ccfd.git 
